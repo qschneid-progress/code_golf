@@ -15,8 +15,9 @@ If whitespace truly doesn't count, no matter what:
 ```sh
 $ python3 cheating.py <<filename>>
 ```
-If you don't want to run an exec blob for fear of having a rootkit installed, and would instead like to compile your own whitespace bomb:
+If you don't want to run an `exec` blob for fear of having a rootkit installed, and would instead like to compile your own whitespace bomb:
 ```sh
 $ python3 how_to_cheat.py 155.py > runme.py
 $ python3 runme.py <<filename>>
 ```
+You can also swap the `exec` for `print` to see what you'll be running before you run it.
